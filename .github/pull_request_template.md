@@ -21,5 +21,5 @@ closes #N
 
 - [ ] Include only relevant files or lines.
 - [ ] Review each change at the line level to ensure high-quality work.
-- [ ] Review documentation (readme, code comments) so others can understand and reproduce the changes. If needed, add/revise and describe in "Summarize the changes" above.
+- [ ] Revise or add documentation (readme, code comments) so others can understand and reproduce the changes. If docs are added, describe in "Summarize the changes" above.
 - [ ] Assign reviewer(s) so they get email notifications.
