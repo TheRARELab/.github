@@ -6,12 +6,12 @@
 
 closes #N
 
-## Summarize the changes
+## Describe/summarize the changes
 <!-- (and discuss other deliverables in the deliverable field) -->
 
 
 
-## Show the changes work
+## Show the changes work or is high-quality
 <!-- e.g., using photos/videos -->
 
 
@@ -20,6 +20,6 @@ closes #N
 <!-- Finally, make sure to do the following and check them off after finishing (Doc: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) -->
 
 - [ ] Include only relevant files or lines.
-- [ ] Review each change at the line level to ensure high-quality work.
-- [ ] Revise or add documentation (readme, code comments) so others can understand and reproduce the changes. If docs are added, describe in "Summarize the changes" above.
+- [ ] Review each change at the word level to ensure high-quality work.
+- [ ] If applicable, revise or add documentation (readme, code comments) so others can understand and reproduce the changes. If docs are added, describe in "Summarize the changes" above.
 - [ ] Assign reviewer(s) so they get email notifications.
