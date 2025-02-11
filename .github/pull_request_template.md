@@ -2,7 +2,7 @@
 <!--  You can contribute to this template here: https://github.com/TheRARELab/.github/edit/main/.github/pull_request_template.md -->
 
 ## Relevant issue 
-<!-- There should be an issue that this PR closes, use a keyword (e.g., closes #4) to link it. -->
+<!-- There should be an issue that this PR closes, use a keyword (e.g., closes) and the issue number or issue URL to link it. -->
 
 closes #N
 
@@ -22,4 +22,4 @@ closes #N
 - [ ] Include only relevant files or lines.
 - [ ] Review each change at the word level to ensure high-quality work.
 - [ ] If applicable, revise or add documentation (readme, code comments) so others can understand and reproduce the changes. If docs are added, describe in "Summarize the changes" above.
-- [ ] Assign reviewer(s) so they get email notifications.
+- [ ] Assign reviewer(s) under `Reviewers`, not Assignees, so they get email notifications ([doc](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review)).
