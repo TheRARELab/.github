@@ -1,6 +1,8 @@
 <!-- Congrats--a pull request! Here is a template to reflect the workflow in the lab handbook: https://github.com/TheRARELab/handbook/tree/main/Workflow -->
 <!--  You can contribute to this template here: https://github.com/TheRARELab/.github/edit/main/.github/pull_request_template.md -->
 
+<!-- All fields below are required. In rare circumstances, explain why not... -->
+
 ## Relevant issue 
 <!-- There should be an issue that this PR closes, use a keyword (e.g., closes) and the issue number or issue URL to link it. -->
 
