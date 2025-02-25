@@ -22,7 +22,7 @@ body:
     value: "Prof"
 - type: checkboxes
   attributes:
-    label: [For assignee; required] Lab Expectations and Workflow
+    label: \[For assignee; required\] Lab Expectations and Workflow
     description: By working on this task, assignee agrees to follow lab [expectations](https://github.com/TheRARELab/handbook/blob/main/Expectations.md), [workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/), and [lab handbook](https://github.com/TheRARELab/handbook/). 
     options:
       - label: I agree to follow lab expectations, workflow, and lab handbook.
