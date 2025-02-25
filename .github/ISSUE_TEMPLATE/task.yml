@@ -5,7 +5,6 @@ body:
   attributes:
     label: Task (what needs to be done?)
     description:  What info is needed to ensure a good understanding of the task/problem?
-    placeholder: Describe it or a list of subtasks.
     value: "- [ ] subtask"
   validations:
     required: true
@@ -20,9 +19,10 @@ body:
   attributes:
     label: Reviewer
     description: Who will review this task or PR? The default is prof, but it should be offloaded to team members familiar with the task.
+    value: "Prof"
 - type: checkboxes
   attributes:
-    label: Lab Expectations and Workflow (required for assignee)
+    label: [For assignee; required] Lab Expectations and Workflow
     description: By working on this task, assignee agrees to follow lab [expectations](https://github.com/TheRARELab/handbook/blob/main/Expectations.md), [workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/), and [lab handbook](https://github.com/TheRARELab/handbook/). 
     options:
-      - label: I, assignee, agree to follow assignee agrees to follow lab expectations, workflow, and lab handbook.
+      - label: I agree to follow lab expectations, workflow, and lab handbook.
