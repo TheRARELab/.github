@@ -3,8 +3,8 @@ description: Create a task that follows lab workflow.
 body:
 - type: textarea
   attributes:
-    label: Task (what needs to be done?)
-    description:  What info is needed to ensure a good understanding of the task/problem?
+    label: Task Description
+    description: What info is needed to ensure a good understanding of the task/problem?
     value: "- [ ] subtask"
   validations:
     required: true
@@ -18,11 +18,12 @@ body:
 - type: input
   attributes:
     label: Reviewer
-    description: Who will review this task or PR? The default is prof, but it should be offloaded to team members familiar with the task.
+    description: Who will review the deliverable or PR? The default is prof, but it should be offloaded to team members familiar with the task.
     value: "Prof"
-- type: checkboxes
+- type: markdown
   attributes:
-    label: \[For assignee; required\] Lab Expectations and Workflow
-    description: By working on this task, assignee agrees to follow lab [expectations](https://github.com/TheRARELab/handbook/blob/main/Expectations.md), [workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/), and [lab handbook](https://github.com/TheRARELab/handbook/). 
-    options:
-      - label: I agree to follow lab expectations, workflow, and lab handbook.
+    value: |
+      ### Assignee Checklist (before working on tasks)
+      - [ ] I agree to help project management by, e.g., (1) actively reviewing our project board, (2) setting a start date (as work starts), (3) changing task status (as task flows), (4)setting an end date (as review finishes), and more.
+      - [ ] I agree to be a good communicator, e.g., keep team/prof informed. After one (ideally) or two work sessions (UG) or 2 to 1 days (grad), I will reply with progress update (w/ photos/videos) & plan next with date.
+      - [ ] I fully understand & agree to review (if not) and follow lab [expectations/values](https://github.com/TheRARELab/handbook/blob/main/Expectations.md), [workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/), and [handbook](https://github.com/TheRARELab/handbook/). 
