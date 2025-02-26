@@ -23,7 +23,12 @@ body:
 - type: markdown
   attributes:
     value: |
-      ### Assignee Checklist (before working on tasks)
-      - [ ] I agree to help project management by, e.g., (1) actively reviewing our project board, (2) setting a start date (as work starts), (3) changing task status (as task flows), (4)setting an end date (as review finishes), and more.
-      - [ ] I agree to be a good communicator, e.g., keep team/prof informed. After one (ideally) or two work sessions (UG) or 2 to 1 days (grad), I will reply with progress update (w/ photos/videos) & plan next with date.
-      - [ ] I fully understand & agree to review (if not) and follow lab [expectations/values](https://github.com/TheRARELab/handbook/blob/main/Expectations.md), [workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/), and [handbook](https://github.com/TheRARELab/handbook/). 
+      ### Assignee Checklist (after creating and before working on task)
+      - [ ] I agree to help project management to monitor project progress and make it happen.
+        - I just reviewed our project board and kept my tasks updated, following [workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/): (a) setting a start date (as work starts), (b) changing task status (as task flows), (c) setting an end date (only after review completes).
+      - [ ] I agree to be a good communicator, including
+        1. After each work session (UG) or every day (grad), I will keep team/prof informed: I will reply with progress update (w/ photos/videos), my plan next with date for my next work session, and inform my other commitments early.
+        2. Every day, I read my teammate/prof's GitHub updates, emails, and Team messages and reply (UG: several minutes) to keep my tasks moving forward.
+        3. During meetings, I take notes on notebook/laptop, which I will transfer them to GitHub issues after meeting.
+        4. I just checked. My weekly lab presence is up to date on lab calendar so others can expect when I can make progress.
+      - [ ] I fully understand & agree to review biweekly and follow lab [expectations/values](https://github.com/TheRARELab/handbook/blob/main/Expectations.md) and [handbook](https://github.com/TheRARELab/handbook/). 
