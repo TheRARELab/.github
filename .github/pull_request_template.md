@@ -13,7 +13,7 @@ closes #N
 
 
 
-## Show the changes work or is high-quality
+## Show the changes work or high-quality
 <!-- e.g., using photos/videos -->
 
 
