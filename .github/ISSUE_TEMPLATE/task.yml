@@ -1,5 +1,5 @@
 name: Task
-description: Create a task that follows lab workflow.
+description: Create a task that follows lab workflow/expectations/handbook.
 body:
 - type: textarea
   attributes:
@@ -10,8 +10,8 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Learning Resources
-    description: Resources or team memberhelp needed to finish the task.
+    label: Learning Resources/Teammates
+    description: Resources or team member help needed to finish the task.
 - type: input
   attributes:
     label: Deliverable & Deliverable test
@@ -19,16 +19,13 @@ body:
   attributes:
     label: Reviewer
     description: Who will review the deliverable or PR? The default is prof, but it should be offloaded to team members familiar with the task.
-    value: "Prof"
-- type: markdown
+- type: checkboxes
   attributes:
-    value: |
-      ### Assignee Checklist (after creating and before working on task)
-      - [ ] I agree to help project management to monitor project progress and make it happen.
-        - I just reviewed our project board and kept my tasks updated, following [workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/): (a) setting a start date (as work starts), (b) changing task status (as task flows), (c) setting an end date (only after review completes).
-      - [ ] I agree to be a good communicator, including
-        1. After each work session (UG) or every day (grad), I will keep team/prof informed: I will reply with progress update (w/ photos/videos), my plan next with date for my next work session, and inform my other commitments early.
-        2. Every day, I read my teammate/prof's GitHub updates, emails, and Team messages and reply (UG: several minutes) to keep my tasks moving forward.
-        3. During meetings, I take notes on notebook/laptop, which I will transfer them to GitHub issues after meeting.
-        4. I just checked. My weekly lab presence is up to date on lab calendar so others can expect when I can make progress.
-      - [ ] I fully understand & agree to review biweekly and follow lab [expectations/values](https://github.com/TheRARELab/handbook/blob/main/Expectations.md) and [handbook](https://github.com/TheRARELab/handbook/). 
+    label: Assignee Checklist (after creating and before working on task)
+    options:
+      - label: I agree to hone my project management skills by following lab workflow (https://github.com/TheRARELab/handbook/blob/main/Workflow/) to monitor project progress and make it happen. I just 1️⃣ reviewed our project board & kept my tasks updated including 2️⃣ setting a start date (as work starts) 3️⃣ changing task status (as task flows) 4️⃣ setting an end date (only after review completes).
+      - label: I agree to be a proactive communicator to keep team/prof informed. After each work session (UG) or every 1 or 2 days (grad), I will reply with 1️⃣ progress update (w/ photos/videos) 2️⃣ my plan next with date for my next work session 3️⃣ inform my other commitments early.
+      - label: I agree to be a responsive communicator to keep my tasks/project moving forward. Every day, I 1️⃣ read GitHub email updates and Teams messages 2️⃣ reply.
+      - label: I agree to be a reliable and helpful teammate. My weekly lab presence is up to date on lab calendar so others can expect when I can make progress or grow!
+      - label: I agree to contribute to effective meetings. I 1️⃣ take notes on notebook/laptop during meetings 2️⃣ transfer them to GitHub issues after meeting.
+      - label: Besides above, I fully understand & agree to review biweekly and follow lab expectations/values/workflow in handbook.
