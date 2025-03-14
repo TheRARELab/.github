@@ -1,15 +1,17 @@
-<!-- Congrats--a pull request! Here is a template to reflect the workflow in the lab handbook: https://github.com/TheRARELab/handbook/tree/main/Workflow -->
+<!-- All fields below are required. In rare circumstances, explain why not. -->
+
+<!-- Congrats--a pull request! Here is a template to reflect the workflow in the lab handbook -->
 <!--  You can contribute to this template here: https://github.com/TheRARELab/.github/edit/main/.github/pull_request_template.md -->
 
-<!-- All fields below are required. In rare circumstances, explain why not... -->
+<!-- Please read/review the workflow docs for a good understanding: https://github.com/TheRARELab/handbook/tree/main/Workflow-->
 
 ## Relevant issue 
 <!-- There should be an issue that this PR closes, use a keyword (e.g., closes) and the issue number or issue URL to link it (e.g., https://github.com/TheRARELab/handbook/issues/4). -->
+<!-- Please read GitHub doc for more info: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue -->
 
 closes #N
 
 ## Describe/summarize the changes
-<!-- (and discuss other deliverables in the deliverable field) -->
 
 
 
@@ -27,7 +29,7 @@ closes #N
 ## Self-review checklist for changes in this PR
 <!-- Finally, make sure to do the following and check them off (Doc: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) -->
 
-- [ ] I have summarized the changes in the title.
+- [ ] I have summarized the changes in the title, which is not the space-separated branch name.
 - [ ] I have included only the files and lines relevant to this change.
 - [ ] I have reviewed each change at the word level to ensure high-quality work.
 - [ ] If applicable, I have revised or added documentation (readme, code comments) so others can understand and reproduce the changes.
