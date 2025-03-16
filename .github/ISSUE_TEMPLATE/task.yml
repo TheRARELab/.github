@@ -5,7 +5,7 @@ body:
   attributes:
     label: Task Description
     description: What info is needed to ensure a good understanding of the task/problem?
-    value: "- [ ] subtask"
+    value: "- [ ] To be planned & broken down by assignee"
   validations:
     required: true
 - type: textarea
