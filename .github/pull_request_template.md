@@ -6,10 +6,10 @@
 <!-- Please read/review the workflow docs for a good understanding: https://github.com/TheRARELab/handbook/tree/main/Workflow-->
 
 ## Relevant issue 
-<!-- There should be an issue that this PR closes, use a keyword (e.g., closes) and the issue number or issue URL to link it (e.g., https://github.com/TheRARELab/handbook/issues/4). -->
+<!-- There should be an issue that this PR closes, use a keyword (e.g., closes) and the issue number (if within the same repo) or issue URL to link it (e.g., https://github.com/TheRARELab/handbook/issues/4). -->
 <!-- Please read GitHub doc for more info: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue -->
 
-closes #N
+closes [issue URL]
 
 ## Describe/summarize the changes
 
