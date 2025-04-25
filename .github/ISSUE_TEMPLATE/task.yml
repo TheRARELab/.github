@@ -21,7 +21,7 @@ body:
     description: Who will review the deliverable or PR? The default is prof, but it should be offloaded to team members familiar with the task.
 - type: checkboxes
   attributes:
-    label: Assignee Checklist (before working on task; duplicate for 1+ assignees)
+    label: Assignee Checklist (go through, not simply check off, before working on task; duplicate for 1+ assignees)
     options:
       - label: I agree to hone my project management skills by following lab workflow (https://github.com/TheRARELab/handbook/blob/main/Workflow/) to monitor project progress and make it happen. I just 1️⃣ reviewed our project board & kept my tasks updated including 2️⃣ setting a start date (as work starts) 3️⃣ changing task status (as task flows) 4️⃣ setting an end date (only after review completes).
       - label: I agree to be a proactive communicator to keep team/prof informed. After each work session (UG) or every 1 or 2 days (grad), I will reply with 1️⃣ progress update (w/ photos/videos) 2️⃣ my plan next with date for my next work session 3️⃣ inform absences & other commitments early.
