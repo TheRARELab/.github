@@ -9,7 +9,7 @@
 <!-- There should be an issue that this PR closes, use a keyword (e.g., closes) and the issue number (if within the same repo) or issue URL to link it (e.g., https://github.com/TheRARELab/handbook/issues/4). -->
 <!-- Please read GitHub doc for more info: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue -->
 
-closes [issue URL]
+closes ISSUE_URL_LIKE_https://github.com/TheRARELab/handbook/issues/4
 
 ## Describe/summarize the changes
 
