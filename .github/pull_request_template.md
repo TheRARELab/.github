@@ -27,7 +27,7 @@ closes ISSUE_URL_LIKE_https://github.com/TheRARELab/handbook/issues/4_OR_ISSUE_N
 <!--  Note: Screenshots -->
 
 
-### PR creator's responsibility checklist
+## PR creator's Responsibility Checklist
 <!-- Finally, make sure to do the following and check them off (Doc: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) -->
 
 - [ ] I have done the following
@@ -42,7 +42,7 @@ closes ISSUE_URL_LIKE_https://github.com/TheRARELab/handbook/issues/4_OR_ISSUE_N
   - [ ] If docs are added, I have described them in the "Summarize the changes" section above.
 - [ ] I will assign reviewer(s) under `Reviewers` in the PR sidebar, not Assignees, so they get email notifications ([doc](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review)).
 
-### Reviewer's responsibility checklist
+## Reviewer's Responsibility Checklist
 
 - [ ] I understand [how to review a PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review) ([more comprehensive guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests)).
 - [ ] This PR closes a task. If not specified, PR creator explains it clearly.
