@@ -3,29 +3,13 @@ description: Create a task that follows lab workflow/expectations/handbook.
 body:
 - type: textarea
   attributes:
-    label: Task Description
-    description: What info is needed to ensure a good understanding of the task/problem?
-    value: "- [ ] To be planned & broken down by assignee"
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Learning Resources/Helping Teammates
-    description: Resources or team member help needed to finish the task.
+    label: Task Description/List & Learning Resources/Helping Teammates
+    description: What info is needed to ensure a good understanding of the task/problem? Resources or team member help needed to finish the task.
 - type: input
   attributes:
-    label: Deliverable & Deliverable test
-- type: input
-  attributes:
-    label: Reviewer
-    description: Who will review the deliverable or PR? The default is prof, but it should be offloaded to team members familiar with the task.
+    label: Deliverable, Test, Reviewer
 - type: checkboxes
   attributes:
-    label: Assignee Checklist (go through, not simply check off, before working on task; duplicate for 1+ assignees)
+    label: Before Working on This Task (Updated 7/19)
     options:
-      - label: I agree to hone my project management skills by following lab workflow (https://github.com/TheRARELab/handbook/blob/main/Workflow/) to monitor project progress and make it happen. I just 1️⃣ reviewed our project board & kept my tasks updated including 2️⃣ setting a start date (as work starts) 3️⃣ changing task status (as task flows) 4️⃣ setting an end date (only after review completes).
-      - label: I agree to be a proactive communicator to keep team/prof informed. After each work session (UG) or every 1 or 2 days (grad), I will reply with 1️⃣ progress update (w/ photos/videos) 2️⃣ my plan next with date for my next work session 3️⃣ inform absences & other commitments early.
-      - label: I agree to be a responsive communicator to keep my tasks/project moving forward. Every day, I 1️⃣ read GitHub email updates and Teams messages 2️⃣ reply.
-      - label: I agree to be a reliable and helpful teammate. My weekly lab presence is up to date on lab calendar so others can expect when I can make progress or grow!
-      - label: I agree to contribute to effective meetings. I 1️⃣ take notes on notebook/laptop during meetings 2️⃣ transfer them to GitHub issues after meeting.
-      - label: Besides above, I fully understand & agree to review biweekly and follow lab expectations/values/workflow in handbook.
+      - label: "I agree the following:\n1. I will provide update/plan next (after each work session) & keep lab calendar updated and come.\n2. I will follow the [lab workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/) (e.g., start/end date, open/update tasks on project board) & [expectations](https://github.com/TheRARELab/handbook/blob/main/Expectations.md) in [handbook](https://github.com/TheRARELab/handbook/).\n3. I will reply to my teammate promptly (please also do outside of work session; only a few minutes)."
