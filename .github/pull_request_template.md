@@ -28,12 +28,10 @@ closes ISSUE_URL_LIKE_https://github.com/TheRARELab/handbook/issues/4_OR_ISSUE_N
 ## PR creator's Responsibility Checklist (Updated 7/19)
 <!-- Finally, make sure to do the following and check them off (Doc: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) -->
 
-- [ ] I have done the following basics
+- [ ] I have done the following PR basics
   1. followed the [branch-based coding workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/Code%20and%20Digital%20Artifacts.md#follow-branch-based-coding-workflow), including single-purpose branch and single-purpose PR
-  2. [routed lab GitHub notifications to my usf.edu inbox](https://github.com/TheRARELab/handbook/blob/main/Workflow/Code%20and%20Digital%20Artifacts.md#route-lab-github-notifications-to-usfedu-inbox) to receive email notifications and will 
-  3. [watched all repos under my GitHub team and set it to watch new repos automatically](https://github.com/TheRARELab/handbook/blob/main/Workflow/Code%20and%20Digital%20Artifacts.md#watch-all-repos-under-your-team--new-repos-automatically)
-  4. will assign reviewer(s) under `Reviewers` in the PR sidebar, not Assignees ([doc](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review))
-     - So they get email notifications to review your PR 
+  2. will assign reviewer(s) under `Reviewers` in the PR sidebar, not Assignees ([doc](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review))
+     - So they get email notifications to review your PR
 - [ ] I have made **my PR readable** by doing the following
   - 1. I have summarized the changes in the title,  not the space-separated branch name.
   - 2. I have filled out all three required sections.
@@ -43,6 +41,8 @@ closes ISSUE_URL_LIKE_https://github.com/TheRARELab/handbook/issues/4_OR_ISSUE_N
   - 3. I have reviewed each change at the word level to ensure high-quality work.
 - [ ] I tried my best for reproducibility, and that my teammates can maintain or change my code easily
   - 1. If applicable (almost always), I have revised existing doc or added doc (readme, code comments) so others can understand & reproduce the changes.
+
+<!-- For first-time PR creators -->
 
 ## Reviewer's Responsibility Reminders (Updated 7/19)
 
