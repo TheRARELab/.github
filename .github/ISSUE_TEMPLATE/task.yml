@@ -10,6 +10,6 @@ body:
     label: Deliverable, Test, Reviewer
 - type: checkboxes
   attributes:
-    label: [Required] Before Working on This Task (updated 10/21)
+    label: "[Required] Before Working on This Task (updated 10/21)"
     options:
       - label: "I agree the following:\n1. I will **provide update & plan** (after each work session) & **keep lab calendar updated & come**.\n2. I will follow the [lab workflow](https://github.com/TheRARELab/handbook/blob/main/Workflow/) (e.g., **status, start & end date**, monitor tasks on project board) & [expectations](https://github.com/TheRARELab/handbook/blob/main/Expectations.md) in [handbook](https://github.com/TheRARELab/handbook/).\n3. I will **reply to my teammate promptly** (please also do outside of work session; only a few minutes)."
