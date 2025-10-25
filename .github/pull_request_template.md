@@ -36,8 +36,8 @@ closes ISSUE_URL_LIKE_https://github.com/TheRARELab/handbook/issues/4_OR_ISSUE_N
   - 1. I have summarized the changes in the title,  not the space-separated branch name.
   - 2. I have filled out all three required sections.
 - [ ] I have made **my changes relevant and high-quality**
-  - 1. I followed the [quality standards](https://github.com/TheRARELab/handbook/tree/main/Quality%20Standards).
-  - 2. I included only the files and lines relevant to this change.
+  - 1. I understand and followed [**coding standards**](https://github.com/TheRARELab/handbook/blob/main/Quality%20Standards/Coding%20Standards.md) and other [**quality standards**](https://github.com/TheRARELab/handbook/tree/main/Quality%20Standards).
+  - 2. I included only relevant files and lines.
   - 3. I have reviewed each change at the word level to ensure high-quality work.
 - [ ] I tried my best for reproducibility, and that my teammates can maintain or change my code easily
   - 1. If applicable (almost always), I have revised existing doc or added doc (readme, code comments) so others can understand & reproduce the changes.
