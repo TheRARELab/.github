@@ -17,7 +17,9 @@
 <!--   e.g., closes https://github.com/TheRARELab/handbook/issues/4 -->
 <!--   Note: Project board URL WON'T link to the issue https://github.com/orgs/TheRARELab/projects/27/views/1?pane=issue&itemId=113813510&issue=TheRARELab%7Cblossom-summer-2025%7C36 -->
 
-closes 
+closes #NNN
+
+If there is no issue, you can assign yourself and add to the project this belongs to.
 
 ## 2. [required] Describe/summarize the changes
 
