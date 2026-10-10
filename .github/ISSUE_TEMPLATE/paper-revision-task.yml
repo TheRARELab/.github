@@ -1,0 +1,58 @@
+name: Paper Revision Task
+description: Track reviewer comments and plans for a paper revision.
+title: "Revise [VENUE_SHORT_NAME] paper"
+labels:
+  - revision
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Revision Guidelines
+
+        Include **every single line of reviewer feedback verbatim** in quoted format.
+        Do not omit, paraphrase, or merge comments. Missing lines may be caught by future reviewers.
+
+        For each comment, use this format:
+
+        > - Comment a
+
+        Your plan to address comment a.
+
+        Repeat for every comment, preserving the original wording and order.
+
+        **Scope control:** If reviewers have no comments about a portion of the paper, do not modify that section unnecessarily. Avoid introducing new weaknesses. If in doubt, discuss the proposed change with the professor or team before making it.
+
+  - type: textarea
+    id: reviewer-comments
+    attributes:
+      label: Reviewer Comments and Revision Plans
+      description: |
+        - Quote every paragraph of reviewer feedback verbatim, then add your plan directly below it.
+        - Separate paragraph if needed so each quote has single point to address.
+        - Preserve the original order and separate each comment from its plan.
+      placeholder: |
+        > - [Paste the first reviewer comment verbatim.]
+
+        Plan: [Describe how you will address this comment.]
+
+        > - [Paste the next reviewer comment verbatim.]
+
+        Plan: [Describe how you will address this comment.]
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Revision Verification
+      description: Check these items before marking the task complete.
+      value: |
+        - [ ] Every line of reviewer feedback is included verbatim.
+        - [ ] Reviewer comments remain in their original order.
+        - [ ] Every comment has a corresponding revision plan.
+        - [ ] No reviewer comment has been silently omitted or paraphrased.
+        - [ ] Sections without reviewer feedback have not been changed unnecessarily.
+        - [ ] Ambiguous or questionable changes have been discussed with the professor or team.
+        - [ ] All planned revisions have been implemented and checked.
+    validations:
+      required: true
