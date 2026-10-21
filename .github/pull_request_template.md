@@ -25,12 +25,11 @@ If there is no issue, you can assign yourself and add to the project this belong
 
 
 
-## 3. [required] Tell why the changes in this PR work or high-quality
-<!-- required e.g., using screenshots/photos/videos -->
+## 3. [required] Tell why the changes in this PR work or high-quality (e.g., screenshots/photos/videos)
 
 
 
-## 4. [required] Documentation
+## 4. [required] Documentation added/revised in repo for team to understand and reproduce changes in this PR work
 <!-- For others to understand & reproduce the changes/print & assemble the hardware, please add doc (readme, code comments) and revise existing doc. -->
 <!--   Describe the doc you made or improved -->
 
@@ -39,7 +38,7 @@ If there is no issue, you can assign yourself and add to the project this belong
 ## PR creator's Responsibility Reminders
 <!-- Finally, make sure to do the following (Doc: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) -->
 
-- Please following PR basics
+- Please follow PR basics
   I have assigned reviewer(s) under `Reviewers` in the PR sidebar, not Assignees ([doc](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review))
      - So they get email notifications to review your PR
 - I have made **my PR readable** by doing the following
@@ -50,7 +49,7 @@ If there is no issue, you can assign yourself and add to the project this belong
   - 2. I included only relevant files and lines.
   - 3. I have reviewed each change at the word level to ensure high-quality work.
 
-## PR Reviewer's Responsibility Reminders (Updated 7/19)
+## PR Reviewer's Responsibility Reminders
 
 - I understand [how to review a PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review) ([more comprehensive guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests)).
 - This PR closes a task. If not specified, PR creator explains it clearly.
